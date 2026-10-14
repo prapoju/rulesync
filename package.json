@@ -1,5 +1,5 @@
 {
-  "name": "rulesync",
+  "name": "@prapoju/rulesync",
   "version": "33.0.0",
   "description": "Unified AI rules management CLI tool that generates configuration files for various AI development tools",
   "keywords": [
@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dyoshikawa/rulesync.git"
+    "url": "git+https://github.com/prapoju/rulesync.git"
   },
   "license": "MIT",
   "author": "dyoshikawa",
@@ -40,6 +40,9 @@
   "types": "dist/index.d.ts",
   "bin": {
     "rulesync": "dist/cli/index.js"
+  },
+  "directories": {
+    "doc": "docs"
   },
   "files": [
     "dist"
